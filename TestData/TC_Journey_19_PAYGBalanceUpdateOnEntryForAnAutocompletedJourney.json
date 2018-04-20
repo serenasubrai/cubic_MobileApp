@@ -1,0 +1,24 @@
+{
+	"verifyOysterPAYGEntryForAnAutoCompletedJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_19 : PAYG balance update via FUL on entry for an autocompleted journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto4@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"AutoCompletedJourney": "true",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFileEntry": "TestData/PAYGTransactionSet/PAYGTransactionAutoCompletedEntry.json",
+			"TransactionFileAutoCompletedJourney": "TestData/PAYGTransactionSet/PAYGTransactionAutoCompletedJourney.json",
+			"TransactionFileAutoCompletedJourneyExit": "TestData/PAYGTransactionSet/PAYGTransactionAutoCompletedExit.json",
+			"PrestigeCardNumber": "6021538",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

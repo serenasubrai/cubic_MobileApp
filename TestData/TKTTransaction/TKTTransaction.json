@@ -1,0 +1,35 @@
+{
+	"TKTRequestSeqNo": 52368607,
+	"PPTSlotNo": 2,
+	"TKTPPTValidityPageCRC": 0,
+	"PassengerType": 0,
+	"DiscountApplied": 0,
+	"PaymentMethod": 32,
+	"ProductCode": 40,
+	"RTVCalendarMonths": 0,
+	"RTVDays": 7,
+	"RTVPricingStructure": 1,
+	"RTVSelector": 0,
+	"RTVReportingSegmentation": 1,
+	"PassengerTypeAge": 0,
+	"TicketClass": 0,
+	"Route": 15,
+	"Destination": 0,
+	"TravelcardZones": 1,
+	"MediumType": 1,
+	"TimeRestriction": 0,
+	"Discount": 0,
+	"ExtraDays": 0,
+	"spareBit": 0,
+	"ZoneRanges": {
+		"1-2": {
+			"ZonalValidity": 3
+		},
+		"1-3": {
+			"ZonalValidity": 7
+		},
+		"2-3": {
+			"ZonalValidity": 6
+		}
+	}
+}

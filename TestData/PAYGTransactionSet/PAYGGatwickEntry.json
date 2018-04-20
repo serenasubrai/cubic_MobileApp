@@ -1,0 +1,21 @@
+
+{
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "GatwickAirport"
+		}
+	],
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "GatwickAirport"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "VictoriaGatwickExpress"
+		}
+	]
+}

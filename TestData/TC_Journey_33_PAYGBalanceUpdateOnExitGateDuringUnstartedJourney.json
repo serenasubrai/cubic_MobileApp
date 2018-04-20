@@ -1,0 +1,22 @@
+{
+	"verifyOysterPAYGBalanceUpdateOnExitDuringUnstartedJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_33 : PAYG balance update via FUL on EXIT GATE during unstarted journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto3@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/PAYGTransactionSet/PAYGTransactionSet.json",
+			"PrestigeCardNumber": "6021549",
+			"PaymentCardCVVNumber": "123",
+			"UnstartedJourney": "true"
+		}
+	]
+}

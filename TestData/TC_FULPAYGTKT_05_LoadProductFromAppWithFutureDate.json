@@ -1,0 +1,22 @@
+{
+	"verifyOysterProductForFutureDate": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_FULPAYGTKT_05 :  FUL - TKT - Successful single future dated product load request initiated on App",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto6@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType":"TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TKTTransactionSet/TKTTransactionSet.json",
+			"PrestigeCardNumber": "6021452",
+			"StartDate":"futureDate",
+			"PaymentCardCVVNumber": "123",
+			"ZoneRanges": "1-2"
+		}
+	]
+}

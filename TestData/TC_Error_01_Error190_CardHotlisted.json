@@ -1,0 +1,16 @@
+{
+	"verifyOysterPAYGErrorCodeHotlistedCard": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Error_01 : verifyOysterPAYGErrorCodeHotlistedCard",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto4@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",	
+			"PrestigeCardNumber": "6021537",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

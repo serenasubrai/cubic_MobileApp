@@ -1,0 +1,24 @@
+{
+	"verifyOysterTKTUpdateOnCompletedJourneyOnContinuationExit": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_01 : TKT update via FUL for completed journey on continuation exit at interchange station",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@Saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType":"TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile1": "TestData/TKTTransactionSet/TC_Journey_01_TKT_Entry_TransactionSet.json",
+			"TransactionFile2": "TestData/TKTTransactionSet/TC_Journey_01_TKT_Exit_TransactionSet.json",
+			"PrestigeCardNumber": "6021463",
+			"PaymentCardCVVNumber": "123",
+			"OSIEntry": "true",
+			"StartDate":" ",
+			"ZoneRanges": "1-2"
+		}
+	]
+}

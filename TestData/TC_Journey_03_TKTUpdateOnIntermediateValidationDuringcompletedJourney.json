@@ -1,0 +1,23 @@
+{
+	"verifyOysterTKTUpdateOnIntermediateValidationDuringCompletedJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_03 : TKT update via FUL on intermediate validation during a completed journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType": "TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"IVALTransaction": "TestData/IVALTransaction/IVALTransaction.json",
+			"TransactionFile": "TestData/TKTTransactionSet/TC_Journey_03_TKT_Set.json",
+			"PrestigeCardNumber": "6021465",
+			"StartDate": "",
+			"PaymentCardCVVNumber": "123",
+			"ZoneRanges": "1-2"
+		}
+	]
+}

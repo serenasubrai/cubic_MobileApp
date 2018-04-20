@@ -1,0 +1,14 @@
+{
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "ElephantAndCastle"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "VictoriaLondonUnderground"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+
+{
+	"TKT": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "ElephantAndCastle"
+		}
+	],
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "ElephantAndCastle"
+		}
+	],
+	"IVAL": [
+		{
+			"TransactionType": "IVAL",
+			"StationName": "WimbledonIVAL"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "VictoriaLondonUnderground"
+		}
+	]
+}

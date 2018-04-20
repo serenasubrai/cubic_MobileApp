@@ -1,0 +1,21 @@
+
+{
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "VictoriaNationalRail"
+		}
+	],
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "VictoriaNationalRail"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "WatfordJunction"
+		}
+	]
+}

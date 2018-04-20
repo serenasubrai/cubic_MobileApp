@@ -1,0 +1,11 @@
+<AutoLoadRequest>
+    <RequestID>@REQID@</RequestID>
+    <OysterID>@OysterID@</OysterID>
+    <AutoLoadState>@AutoLoadState@</AutoLoadState>
+    <PickupMode>@PickupMode@</PickupMode>
+    <RequestExpiryDate>@RequestExpiryDate@</RequestExpiryDate>
+    <OriginatorInfo>
+        <UserID>@UserID@</UserID>
+        <Password>@Password@</Password>
+    </OriginatorInfo>
+</AutoLoadRequest> 

@@ -1,0 +1,21 @@
+
+{
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "WimbledonTram"
+		}
+	],
+	"TRAM": [
+		{
+			"TransactionType": "TRAM",
+			"StationName": "WimbledonTram"
+		}
+	],
+	"BUS": [
+		{
+			"TransactionType": "BUS",
+			"StationName": "T032BusJourney"
+		}
+	]
+}

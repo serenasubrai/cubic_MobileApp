@@ -1,0 +1,23 @@
+{
+	"verifyOysterTopUP": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_FULPAYGTKT_26 : FUL - 80 - Add PAYG - Request actioned - RDR Txn is received in Pick Up Window",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto6@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile":"TestData/PAYGTransactionSet/PAYGTransactionSet.json",
+			"PrestigeCardNumber": "6021452",
+			"PaymentCardCVVNumber":"123",
+			"TestRailCaseId": "C12385"
+		}
+	]
+	
+}

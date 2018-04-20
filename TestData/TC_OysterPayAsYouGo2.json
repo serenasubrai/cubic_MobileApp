@@ -1,0 +1,94 @@
+{
+	"verifyOysterTopUP": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC001_Topup:Verify Oyster Topup",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubic14@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PrestigeCardNumber": "90923421"
+		}
+	],
+	"generatePAYGTransaction": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC002_PAYG:Generate PAYG Transaction",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"TransactionType": "PAYG",
+			"StationName": "ElephantAndCastle",
+			"PrestigeCardNumber": "90923421"
+		}
+	],
+	"generateEntryTransaction": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC003_Entry:Generate Entry Transaction",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"TransactionType": "Entry",
+			"StationName": "ElephantAndCastle",
+			"PrestigeCardNumber": "90923421"
+		}
+	],
+	"generateExitTransaction": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC004_Exit:Generate Exit Transaction",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionType": "Exit",
+			"StationName": "OxfordCircus",
+			"PrestigeCardNumber": "90923421"
+		}
+	],
+	"verifyTransactionStatusInCS": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC005_VerifyCS:Verify Transactions Exported to Central System database",
+			"PrestigeCardNumber": "90923421"
+		}
+	],
+	"verifyTransactionStatusInOYBO": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC006_VerifyOYBO:Verify Transactions Exported to OYBO test servers",
+			"PrestigeCardNumber": "90923421"
+		}
+	],
+	"verifyBalanceUpdatedOnApp": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC007_BalanceUpdate:Verify Balance is updated to Mobile App",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubic14@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PrestigeCardNumber": "90923421"
+		}
+	],
+	"verifyJourneyHistoryUpdatedOnApp": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC008_JourneyHistory:Verify Journey History is Updated on Mobile App",
+			"EntryStationName": "ElephantAndCastle",
+			"ExitStationName": "OxfordCircus"
+		}
+	],
+	"verifyAppLogOut": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC009_logout:Verify User logged out from the Oyster App"
+		}
+	],
+	"updateResultsToTestrail": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC010_Verify the test results are updated to Test Rail",
+			"TestRailCaseId": "12067"
+		}
+	]
+}

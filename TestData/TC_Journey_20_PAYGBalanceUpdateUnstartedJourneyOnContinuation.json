@@ -1,0 +1,22 @@
+{
+	"verifyOysterPAYGBalanceUpdateOnUnstartedJourneyOnContinuation": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_20 : PAYG balance update via FUL for unstarted journey on continuation",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto4@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile1": "TestData/PAYGTransactionSet/TC_Journey_20_PAYG_Entry_TransactionSet.json",
+			"TransactionFile2": "TestData/PAYGTransactionSet/TC_Journey_20_PAYG_Exit_TransactionSet.json",
+			"PrestigeCardNumber": "6021538",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

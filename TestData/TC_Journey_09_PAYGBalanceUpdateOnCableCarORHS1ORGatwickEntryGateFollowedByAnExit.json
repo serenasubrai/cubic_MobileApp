@@ -1,0 +1,21 @@
+{
+	"verifyOysterPAYGBalanceUpdateEntryAtGatwick": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_9 : PAYG balance update on CableCar or HS1 or Gatwick entry gate followed by an exit",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@Saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/PAYGTransactionSet/PAYGGatwickEntry.json",
+			"PrestigeCardNumber": "6021464",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"verifyOysterLogin": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "C12283:TC001_Verify Oyster App Login",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicuser32@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TestRailCaseId": "C12283"
+		}
+	],
+	"updateResultsToTestrail": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "C12283:TC002_Verify the test results are updated to Test Rail",
+			"TestRailCaseId": "C12283"
+		}
+	]
+}

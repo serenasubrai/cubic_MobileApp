@@ -1,0 +1,15 @@
+
+{
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "WimbledonIVAL"
+		}
+	],
+	"IVAL": [
+		{
+			"TransactionType": "IVAL",
+			"StationName": "WimbledonIVAL"
+		}
+	]
+}

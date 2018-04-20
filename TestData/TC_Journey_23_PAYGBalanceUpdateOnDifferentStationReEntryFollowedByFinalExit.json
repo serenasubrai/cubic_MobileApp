@@ -1,0 +1,22 @@
+{
+	"verifyOysterPAYGBalanceUpdateOnDifferentStationReEntryByFinalExit": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_23 : PAYG balance update via FUL on different station re-entry followed by final exit",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto2@Saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile1": "TestData/PAYGTransactionSet/PAYGTransactionSet.json",
+			"TransactionFile2": "TestData/PAYGTransactionSet/PAYGTransactionSet2.json",
+			"PrestigeCardNumber": "6021475",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

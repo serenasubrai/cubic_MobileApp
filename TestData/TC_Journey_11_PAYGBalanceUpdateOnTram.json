@@ -1,0 +1,22 @@
+{
+	"verifyOysterBalanceUpdateOnTram": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_11 : PAYG balance update via FUL on Tram",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@Saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"TRAM",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TRAMTransaction": "TestData/TRAMTransaction/TRAMTransaction.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TRAMTransactionSet/TRAMTransactionSet.json",
+			"PrestigeCardNumber": "6021465",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

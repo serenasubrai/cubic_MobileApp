@@ -1,0 +1,21 @@
+
+{
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "VictoriaLondonUnderground"
+		}
+	],
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "VictoriaLondonUnderground"
+		}
+	],
+	"IVAL": [
+		{
+			"TransactionType": "IVAL",
+			"StationName": "WimbledonIVAL"
+		}
+	]
+}

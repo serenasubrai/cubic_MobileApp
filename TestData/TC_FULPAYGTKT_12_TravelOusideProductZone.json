@@ -1,0 +1,23 @@
+{
+	"verifyTKTTravelOutsideProductZone": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_FULPAYGTKT_12 : FUL - TKT - Travel Outside of TKT  Product Zone",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto6@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType":"TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TKTTransactionSet/TKTTravelOutSideProduct.json",
+			"PrestigeCardNumber": "6021459",
+			"ZoneRanges": "1-3",
+			"StartDate": "",
+			"TravelOutsideZoneRange": "true",
+			"PaymentCardCVVNumber":"123"
+		}
+	]
+}

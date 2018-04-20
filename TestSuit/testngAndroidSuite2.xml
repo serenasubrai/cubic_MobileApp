@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- parallel="classes" thread-count="5" -->
+
+<suite name="AndroidSuit">
+	<parameter name="projectID" value="21" />
+	<parameter name="suiteID" value="102" />
+	<test name="Test">
+		<parameter name="platformName" value="Android" />
+		<parameter name="app"
+			value="AppFiles/RealDeviceBuild/app-armeabi-v7a-release.apk" />
+		<parameter name="browsername" value="" />
+		<parameter name="executionenv" value="local" />
+		<parameter name="platformVersion" value="" />
+		<parameter name="appiumUrl" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="deviceName" value="091609f2b5933503" />
+		<parameter name="appPackage" value="uk.gov.tfl.oystercontactless" />
+		<parameter name="appActivity" value="com.oyster.MainActivity" />
+		<parameter name="appWaitActivity" value="" />
+		<parameter name="udid" value="iPhone Simulator" />
+		<parameter name="bundleId" value="iPhone Simulator" />
+		<parameter name="deviceOrientation" value="potrait" />
+		<classes>
+		
+			<!-- <class name="com.tfl.appium.scripts.e2e.TC_AddOysterCard_04_StoreProducts" /> -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_FULPAYGTKT_26_AddPAYGRequestActioned" />
+			<!-- <class name="com.tfl.appium.scripts.e2e.TC_Error_03_Error70PPVAMOUNTWOULDEXCEEDMAXALLOWEDPPVMobileAppDoesNotAllowPAYGAmountToGoOver£90" 
+				/> -->
+		</classes>
+	</test>
+</suite>

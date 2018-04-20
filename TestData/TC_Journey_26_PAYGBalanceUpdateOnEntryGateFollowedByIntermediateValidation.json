@@ -1,0 +1,22 @@
+{
+	"verifyOysterPAYGBalanceUpdateOnEntryGateFollowedByIntermediateValidation": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_26 : PAYG balance update via FUL on entry gate followed by intermediate validation",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@Saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"IVALTransaction": "TestData/IVALTransaction/IVALTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile1": "TestData/PAYGTransactionSet/TC_Journey_26_PAYG_Set1.json",
+			"PrestigeCardNumber": "6021463",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

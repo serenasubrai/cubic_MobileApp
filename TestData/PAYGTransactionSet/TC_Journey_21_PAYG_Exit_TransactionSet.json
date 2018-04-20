@@ -1,0 +1,16 @@
+
+{
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "Wimbledon"
+		}
+	],
+	
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "WatfordJunction"
+		}
+	]
+}

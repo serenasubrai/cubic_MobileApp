@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- parallel="classes"  thread-count="5" -->
+<suite name="IOSSuit" >
+	<parameter name="projectID" value="${ProjectID}" />
+	<parameter name="suiteID" value="${SuiteID}" />
+	<parameter name="runID" value="${RunID}" />
+	<parameter name="test_Rail_Integration_Enable_Flag" value="${Test_Rail_Integration_Enable_Flag}"></parameter>
+  <test name="Test on Suit">
+    <parameter name="platformName" value="iOS"/>
+    <!-- <parameter name="app" value=""/> -->
+    <parameter name="app" value="sauce-storage:TflOysterIOSold.zip"/> <!--  from config, remove absolute path -->
+    <parameter name="browsername" value=""/>
+    <parameter name="executionenv" value="saucelabs"/>
+    <parameter name="platformVersion" value="11.2"/>
+    <parameter name="appiumUrl" value="http://127.0.0.1:4723/wd/hub"/> 
+    <parameter name="deviceName" value="iPhone Simulator"/>
+    <!-- <parameter name="udid" value="7490c74e577518bef518422d3c6d69ad3650877d"/>
+    <parameter name="deviceName" value="iPhone SE"/>
+    <parameter name="platformVersion" value="11.0.3"/> -->
+    <parameter name="bundleId" value="com.cubic.tfl.oyster"/>
+    <parameter name="appPackage" value=""/>
+    <parameter name="appActivity" value=""/>
+    <parameter name="appWaitActivity" value="" />
+    <!-- <parameter name="locale" value="" />
+		<parameter name="noReset" value="" />
+		<parameter name="fullReset" value="" />
+		<parameter name="appiumVersion" value="1.7.1" />
+		<parameter name="automationName" value="XCUITest" /> -->
+    <classes>
+
+<!-- *********************** JOURNEY SCENARIOS ************************* -->
+
+			<!-- TC_Journey1 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_01_TKTUpdateViaFULForCompletedJourneyOnContinuationExitAtInterchangeStation" />
+			<!-- TC_Journey2 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_02_TKTUpdateViaFULOnOSIReEntryDuringOverallCompletedJourney" />
+			<!-- TC_Journey3 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_03_TKTUpdateOnIntermediateValidationDuringcompletedJourney" />
+			<!-- TC_Journey4 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_04_TKTUpdateOnEntryForHereToHereJourney" />
+			<!-- TC_Journey5 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_05_TKTUpdateOnExitDuringUnstartedJourney" />
+			<!-- TC_Journey6 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_06_TKTUpdateOnEntryDuringUncompletedJourney" />
+			<!-- TC_Journey7 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_07_PAYGBalanceUpdateViaFULOnAnyRiverBus" />
+			<!-- TC_Journey9 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_09_PAYGBalanceUpdateOnCableCarORHS1ORGatwickEntryGateFollowedByAnExit" />
+			<!-- TC_Journey10 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_10_PAYGBalanceUpdateOnNonWimbledonTramAndExitAtWimbledonWithinMJT" />
+			<!-- TC_Journey11 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_11_PAYGBalanceUpdateOnTram" />
+			<!-- TC_Journey12 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_12_PAYGBalanceUpdateOnEntryGateFollowedBySameStationExit" />
+			<!-- TC_Journey13 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_13_PAYGBalanceUpdateOnEntryFollowedByNoExitAndCompleteJourney" />
+			<!-- TC_Journey14 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_14_PAYGBalanceUpdateOnEntryGateDuringCompleteJourney" />
+			<!-- TC_Journey16 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_16_PAYGBalanceUpdateOnWimbledonTramFollowedByExitAtWimbledonGateWithinSSTOfWimbledonTram" />
+			<!-- TC_Journey17 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_17_PAYGBalanceUpdateViaFULOnEntryAtWimbledonGatelineFollowedByNonWimbledonTram" />
+			<!-- TC_Journey18 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_18_PAYGBalanceUpdateViaFULOnEntryAtWimbledonGatelineFollowedByWimbledonTramWithinSST" />
+			<!-- TC_Journey19 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_19_PAYGBalanceUpdateOnEntryForAnAutocompletedJourney" />
+			<!-- TC_Journey20 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_20_PAYGBalanceUpdateUnstartedJourneyOnContinuation" />
+			
+			<!-- TC_Journey21 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_21_PAYGBalanceUpdateOnCompletedJourneyOnContinuationExit" />
+			<!-- TC_Journey22 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_22_PAYGBalanceUpdateOnExitFollowedByContinuationExit" />
+			<!-- TC_Journey23 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_23_PAYGBalanceUpdateOnDifferentStationReEntryFollowedByFinalExit" />
+			<!-- TC_Journey24 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_24_PAYGBalanceUpdateOnSameStationReEntry" />
+			<!-- TC_Journey26 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_26_PAYGBalanceUpdateOnEntryGateFollowedByIntermediateValidation" />
+			<!-- TC_Journey27 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_27_PAYGBalanceUpdateOnFinalExitDuringOverallCompletedOSIJourney" />
+			<!-- TC_Journey28 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_28_PAYGBalanceUpdateOnOSIReEntryDuringCompletedJourney" />
+			<!-- TC_Journey29 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_29_PAYGBalanceUpdateOnFirstEntryDuringOverallUncompletedOSIjourney" />
+			<!-- TC_Journey30 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_30_PAYGBalanceUpdateViaFULOnIVALOnly" />
+			<!-- TC_Journey31 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_31_PAYGBalanceUpdateViaFULOnIVALDuringCompletedJourney" />
+			<!-- TC_Journey32 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_32_PAYGBalanceUpdateENTRYGATEForHereToHereJourney" />
+			<!-- TC_Journey33 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_33_PAYGBalanceUpdateOnExitGateDuringUnstartedJourney" />
+			<!-- TC_Journey34 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Journey_34_PAYGBalanceUpdateOnEntryGateDuringUncompletedJourney" />
+
+
+<!-- *************************** FUL PAYG & TKT SCENARIOS ****************************** -->
+
+			<!-- TC_FULPAYGTKT05 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_FULPAYGTKT_05_LoadProductFromAppWithFutureDate" />
+			
+			<!-- TC_FULPAYGTKT06 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_FULPAYGTKT_06_LoadMultipleProductsFromApp" />
+			
+			<!-- TC_FULPAYGTKT12 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_FULPAYGTKT_12_TravelOusideProductZone" />
+			
+			<!-- TC_FULPAYGTKT14 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_FULPAYGTKT_14_LoadProductViaAppAndOrderReflectedOnApp" />
+			
+			<!-- TC_FULPAYGTKT16 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_FULPAYGTKT_16_AddPAYGFromAppWithNewPaymentCard" />
+			
+			<!--  TC_FULPAYGTKT26 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_FULPAYGTKT_26_AddPAYGRequestActioned" />
+
+<!-- ************************* ERROR CODES ********************* -->
+
+			<!-- TC_ErrorCode1 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Error_01_Error190_CardHotlisted" />
+			
+			<!-- TC_ErrorCode2 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Error_02_Error520MAXIMUMNUMBEROFCARDREQUESTSEXCEEDEDOk" />
+			<!-- TC_ErrorCode3 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Error_03_Error70PPVAMOUNTWOULDEXCEEDMAXALLOWEDPPVMobileAppDoesNotAllowPAYGAmountToGoOver£90" />
+			<!-- TC_ErrorCode4 -->
+			<class
+			name="com.tfl.appium.scripts.e2e.TC_Error_04_Error60NoAvilablePptSlotOk" />
+
+
+</classes>
+  </test>
+</suite>

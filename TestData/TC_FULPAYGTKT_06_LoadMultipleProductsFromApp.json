@@ -1,0 +1,24 @@
+{
+	"verifyOysterLoadMultipleTKTProducts": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_FULPAYGTKT_06 :  FUL - TKT - Successful multiple product load request initiated on App",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto6@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType": "TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TKTTransactionSet/TKTTransactionSet.json",
+			"PrestigeCardNumber": "6021456",
+			"StartDate1": " ",
+			"ZoneRanges1": "1-2",
+			"StartDate2": "futureDate",
+			"ZoneRanges2": "2-3",
+			"PaymentCardCVVNumber":"123"
+		}
+	]
+}

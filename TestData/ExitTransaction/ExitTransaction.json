@@ -1,0 +1,189 @@
+{
+	"resultCode": 0,
+	"autoContinutionFlag": 0,
+	"autoCompletionFlag": 0,
+	"osiEntryFlag": 0,
+	"svInvlovedFlag": 1,
+	"ppt3UsedFlag": 0,
+	"ppt2UsedFlag": 0,
+	"ppt1UsedFlag": 0,
+	"tokenExit": 0,
+	"sparebit14": 0,
+	"previousValidationErrorFlag": 0,
+	"unStartedPPTExitFlag": 0,
+	"unCompletedPPTEntryFlag": 0,
+	"exitChargeAppliedFlag": 0,
+	"passbackAuthorised": 0,
+	"dailyCapping": 0,
+	"TransferDiscountApp": 0,
+	"PPT1ValidityPageCRC": 0,
+	"PPT2ValidityPageCRC": 0,
+	"PPT3ValidityPageCRC": 0,
+	"passengerType": 0,
+	"discountType": 31,
+	"zoneRangeCode": 0,
+	"cappingSceme": 0,
+	"pptProductCode": 255,
+	"spareByte": 0,
+	"zonalValidity": 0,
+	"pptPassengerType": 0,
+	"twoBitFlag": 0,
+	"sameStationExitFlag": 0,
+	"relevantRoutingNodeFlag": 0,
+	"zonalIndicator": 0,
+	"spareBit35": 0,
+	"tktDiscountApplied": 0,
+	"oysterFareType": 1,
+	"crossDayJourneyFlag": 0,
+	"travelSetting": 4,
+	"ElephantAndCastle": {
+		"OxfordCircus": {
+			"fullExitAdjustmentDeducted": -300,
+			"exitAdjustmentDeducted": -300,
+			"fullFare": 240,
+			"discountedFare": 240
+		},
+		"WatfordJunction": {
+			"fullExitAdjustmentDeducted": 0,
+			"exitAdjustmentDeducted": 0,
+			"fullFare": 240,
+			"discountedFare": 240
+		},
+		"WatfordJunctionOSI": {
+			"fullExitAdjustmentDeducted": 130,
+			"exitAdjustmentDeducted": 130,
+			"fullFare": 670,
+			"discountedFare": 670
+		},
+		"Wimbledon": {
+			"fullExitAdjustmentDeducted": -200,
+			"exitAdjustmentDeducted": -200,
+			"fullFare": 240,
+			"discountedFare": 240
+		},
+		"VictoriaLondonUnderground": {
+			"fullExitAdjustmentDeducted": -300,
+			"exitAdjustmentDeducted": -300,
+			"fullFare": 240,
+			"discountedFare": 240
+		}
+	},
+	"Richmond": {
+		"WatfordJunction": {
+			"fullExitAdjustmentDeducted": -260,
+			"exitAdjustmentDeducted": -260,
+			"fullFare": 180,
+			"discountedFare": 180
+		}
+	},
+	"GatwickAirport": {
+		"VictoriaGatwickExpress": {
+			"fullExitAdjustmentDeducted": 1170,
+			"exitAdjustmentDeducted": 1170,
+			"fullFare": 1980,
+			"discountedFare": 1980
+		}
+	},
+	"VictoriaNationalRail": {
+		"WatfordJunction": {
+			"fullExitAdjustmentDeducted": -10,
+			"exitAdjustmentDeducted": -10,
+			"fullFare": 530,
+			"discountedFare": 530
+		},
+		"ElephantAndCastle": {
+			"fullExitAdjustmentDeducted": 0,
+			"exitAdjustmentDeducted": -130,
+			"fullFare": 410,
+			"discountedFare": 410
+		}
+	},
+	"Wimbledon": {
+		"WatfordJunction": {
+			"fullExitAdjustmentDeducted": -200,
+			"exitAdjustmentDeducted": -200,
+			"fullFare": 240,
+			"discountedFare": 240
+		},
+		"ElephantAndCastle": {
+			"fullExitAdjustmentDeducted": 0,
+			"exitAdjustmentDeducted": -130,
+			"fullFare": 410,
+			"discountedFare": 410
+		},
+		"VictoriaLondonUnderground": {
+			"fullExitAdjustmentDeducted": -260,
+			"exitAdjustmentDeducted": -260,
+			"fullFare": 280,
+			"discountedFare": 280
+		},
+		"fullExitAdjustmentDeducted": 540,
+		"exitAdjustmentDeducted": 540,
+		"fullFare": 540,
+		"discountedFare": 540
+	},
+	"OxfordCircus": {
+		"OxfordCircus": {
+			"fullExitAdjustmentDeducted": -260,
+			"exitAdjustmentDeducted": -260,
+			"fullFare": 280,
+			"discountedFare": 280
+		},
+		"Wimbledon": {
+			"fullExitAdjustmentDeducted": -200,
+			"exitAdjustmentDeducted": -200,
+			"fullFare": 240,
+			"discountedFare": 240
+		},
+		"ElephantAndCastle": {
+			"fullExitAdjustmentDeducted": 0,
+			"exitAdjustmentDeducted": 0,
+			"fullFare": 330,
+			"discountedFare": 330
+		},
+		"fullExitAdjustmentDeducted": 540,
+		"exitAdjustmentDeducted": 540,
+		"fullFare": 540,
+		"discountedFare": 540
+	},
+	"VictoriaLondonUnderground": {
+		"Wimbledon": {
+			"fullExitAdjustmentDeducted": -200,
+			"exitAdjustmentDeducted": -200,
+			"fullFare": 240,
+			"discountedFare": 240
+		},
+		"WatfordJunction": {
+			"fullExitAdjustmentDeducted": 0,
+			"exitAdjustmentDeducted": 0,
+			"fullFare": 240,
+			"discountedFare": 240
+		},
+		"OxfordCircus": {
+			"fullExitAdjustmentDeducted": 0,
+			"exitAdjustmentDeducted": 0,
+			"fullFare": 640,
+			"discountedFare": 640
+		}
+	},
+	"H2H": {
+		"OxfordCircus": {
+			"OxfordCircus": {
+				"fullExitAdjustmentDeducted": -300,
+				"exitAdjustmentDeducted": -300,
+				"fullFare": 240,
+				"discountedFare": 240
+			}
+		}
+	},
+	"SSE": {
+		"OxfordCircus": {
+			"OxfordCircus": {
+				"fullExitAdjustmentDeducted": -540,
+				"exitAdjustmentDeducted": 0,
+				"fullFare": 0,
+				"discountedFare": 540
+			}
+		}
+	}
+}

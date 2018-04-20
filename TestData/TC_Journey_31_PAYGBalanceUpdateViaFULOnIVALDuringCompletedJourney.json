@@ -1,0 +1,23 @@
+{
+	"verifyOysterPAYGBalanceUpdateOnIvalDuringCompletedJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_31 : PAYG balance update via FUL on IVAL during a completed journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto3@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"IVALTransaction": "TestData/IVALTransaction/IVALTransaction.json",
+			"TransactionFile": "TestData/PAYGTransactionSet/TC_Journey_31_PAYG_Set.json",
+			"PrestigeCardNumber": "6021534",
+			"PaymentCardCVVNumber": "123",
+			"OSIEntry": "true"
+		}
+	]
+}

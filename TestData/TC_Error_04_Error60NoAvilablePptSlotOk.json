@@ -1,0 +1,17 @@
+{
+	"verifyErrMsgYouCantBuyAseasonTicketAsYouHaveTheMaxNumAllowedOnCard": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Error_04 : Error 60 - NO AVAILABLE PPT SLOT_ok",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto3@saf.com",
+			"AppPassword": "Cub1cuser",
+			"PrestigeCardNumber": "6021550",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PaymentCardCVVNumber": "123",
+			"StartDate":"",
+			"ZoneRanges": "1-2"
+		}
+	]
+}

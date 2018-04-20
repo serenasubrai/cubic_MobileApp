@@ -1,0 +1,18 @@
+{
+	"addOysterNotRegInCSValidateJH": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_AddOysterCard_01 : NotRegisteredInCS_ValidateJH",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicuser40@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",	
+			"PrestigeCardNumber": "6021524",
+			"addOysCardNum": "000602152432",
+			"securityAnswer": "salfords",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"verifyOysterPAYGBalanceUpdateOnEntryFollowedBySameStationExit": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_12 : PAYG balance update on entry gate followed by same station exit",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/PAYGTransactionSet/PAYGTransactionSameStationExit.json",
+			"PrestigeCardNumber": "6021465",
+			"PaymentCardCVVNumber": "123",
+			"JourneyType": "SSE"
+		}
+	]
+}

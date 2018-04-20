@@ -1,0 +1,543 @@
+{
+	"RecordNumber": 0,
+	"TicketHall": 1,
+	"DeviceLocation": 1,
+	"Generation": 12,
+	"SpecialResetCount": 1,
+	"OperatorIdentity": 449,
+	"TransactionNumber": 2,
+	"TransactionType": 127,
+	"TransactionSubType": 103,
+	"LinkingSequenceNo": 255,
+	"LinkingStatus": 4,
+	"txnType": 124,
+	"TestTrainingFlag": 0,
+	"CurrencyType": 0,
+	"fulFlag": 1,
+	"padding": 0,
+	"disablePPToverLoading": 0,
+	"disableSVOverriding": 0,
+	"ntmCardUpdated": 1,
+	"PhysicalCardType": 3,
+	"LinkingSeqNo": 255,
+	"FULCurrentASN": 88,
+	"FULASNStatuses": 20,
+	"PreviousTranSummaries": 0,
+	"fileTrailerRecordType": 4,
+	"fileTrailerRecordNumber": 1,
+	"fileTrailerRecordLength": 8,
+	"numberofRecords": 1,
+	"BusTransactionType": 124,
+	"BusReaderTransactionType": 5,
+	"BusTransactionNumber": 1,
+	"BusTransactionLength": 133,
+	"busRHD0Bit7": 0,
+	"busRHD4Bit4": 0,
+	"txnTypeBus": 125,
+	"BusReaderTimeOffLine": 0,
+	"busStopIDStatus": 255,
+	"busStopID": "            ",
+	"busDirectionOfTravel": 255,
+	"busTripType": 255,
+	"busTripNumber": 1,
+	"busRHD35": 0,
+	
+	"6021462": {
+		"NTMno": 6021462,
+		"NTMNoCheckDigits": 66,
+		"CSN": "36067029512892678"
+	},
+	"6021463": {
+		"NTMno": 6021463,
+		"NTMNoCheckDigits": 85,
+		"CSN": "36067029512892679"
+	},
+	"6021524": {
+		"NTMno": 6021524,
+		"NTMNoCheckDigits": 32,
+		"CSN": "36067029512893489"
+	},
+	"6021508": {
+		"NTMno": 6021508,
+		"NTMNoCheckDigits": 31,
+		"CSN": "36067029512890987"
+	},
+	"6021450": {
+		"NTMno": 6021450,
+		"NTMNoCheckDigits": 41,
+		"CSN": "36067029512893623"
+	},
+	"6021529": {
+		"NTMno": 6021529,
+		"NTMNoCheckDigits": 27,
+		"CSN": "36067029512895478"
+	},
+	"6021501": {
+		"NTMno": 6021501,
+		"NTMNoCheckDigits": "01",
+		"CSN": "36067029512895566"
+	},
+	"6021520": {
+		"NTMno": 6021520,
+		"NTMNoCheckDigits": 56,
+		"CSN": "36067029512892312"
+	},
+	"6021488": {
+		"NTMno": 6021488,
+		"NTMNoCheckDigits": 54,
+		"CSN": "36067029512895641"
+	},
+	"6021541": {
+		"NTMno": 6021541,
+		"NTMNoCheckDigits": 52,
+		"CSN": "36067029512893462"
+	},
+	"6021510": {
+		"NTMno": 6021510,
+		"NTMNoCheckDigits": 69,
+		"CSN": "36067029512894325"
+	},
+	"6021544": {
+		"NTMno": 6021544,
+		"NTMNoCheckDigits": "09",
+		"CSN": "36067029512892345"
+	},
+	"6021496": {
+		"NTMno": 6021496,
+		"NTMNoCheckDigits": "06",
+		"CSN": "36067029512892436"
+	},
+	"6021486": {
+		"NTMno": 6021486,
+		"NTMNoCheckDigits": 19,
+		"CSN": "36067029512894213"
+	},
+	"6021542": {
+		"NTMno": 6021542,
+		"NTMNoCheckDigits": 71,
+		"CSN": "36067029512899876"
+	},
+	"6021543": {
+		"NTMno": 6021543,
+		"NTMNoCheckDigits": 90,
+		"CSN": "36067029512896396"
+	},
+	
+	"6021464": {
+		"NTMno": 6021464,
+		"NTMNoCheckDigits": "04",
+		"CSN": "36067029512892680"
+	},
+	
+	"6021465": {
+		"NTMno": 6021465,
+		"NTMNoCheckDigits": 23,
+		"CSN": "36067029512892681"
+	},
+	
+	"6021466": {
+		"NTMno": 6021466,
+		"NTMNoCheckDigits": 42,
+		"CSN": "36067029512892682"
+	},
+	
+	"6021468": {
+		"NTMno": 6021468,
+		"NTMNoCheckDigits": 80,
+		"CSN": "36067029512892683"
+	},
+	
+	"6021469": {
+		"NTMno": 6021469,
+		"NTMNoCheckDigits": 99,
+		"CSN": "36067029512892684"
+	},
+	
+	"6021548": {
+		"NTMno": 6021548,
+		"NTMNoCheckDigits": 85,
+		"CSN": "36067029512892690"
+	},
+	
+	"6021470": {
+		"NTMno": 6021470,
+		"NTMNoCheckDigits": 18,
+		"CSN": "36067029512892685"
+	},
+	
+	"6021475": {
+		"NTMno": 6021475,
+		"NTMNoCheckDigits": 10,
+		"CSN": "36067029512892686"
+	},
+	
+	"6021533": {
+		"NTMno": 6021533,
+		"NTMNoCheckDigits": "03",
+		"CSN": "36067029512892687"
+	},
+	
+	"6021534": {
+		"NTMno": 6021534,
+		"NTMNoCheckDigits": 22,
+		"CSN": "36067029512892688"
+	},
+	
+	"6021535": {
+		"NTMno": 6021535,
+		"NTMNoCheckDigits": 41,
+		"CSN": "36067029512892689"
+	},
+		
+	"6021536": {
+		"NTMno": 6021536,
+		"NTMNoCheckDigits": 57,
+		"CSN": "36067029512892690"
+	},
+	
+	"6021537": {
+		"NTMno": 6021537,
+		"NTMNoCheckDigits": 76,
+		"CSN": "36067029512892691"
+	},
+	
+	"6021538": {
+		"NTMno": 6021538,
+		"NTMNoCheckDigits": 95,
+		"CSN": "36067029512892692"
+	},
+	
+	"6021539": {
+		"NTMno": 6021539,
+		"NTMNoCheckDigits": 14,
+		"CSN": "36067029512892693"
+	},
+	
+	"6021540": {
+		"NTMno": 6021540,
+		"NTMNoCheckDigits": 33,
+		"CSN": "36067029512892694"
+	},
+	"6021549": {
+		"NTMno": 6021549,
+		"NTMNoCheckDigits": "04",
+		"CSN": "36067029512892695"
+	},
+	
+	"6021550": {
+		"NTMno": 6021550,
+		"NTMNoCheckDigits": 23,
+		"CSN": "36067029512892696"
+	},
+	
+	"6021459": {
+		"NTMno": 6021459,
+		"NTMNoCheckDigits": "09",
+		"CSN": "36067029512892697"
+	},
+	
+	"6021456": {
+		"NTMno": 6021456,
+		"NTMNoCheckDigits": 52,
+		"CSN": "36067029512892698"
+	},
+	
+	"6021452": {
+		"NTMno": 6021452,
+		"NTMNoCheckDigits": 79,
+		"CSN": "36067029512892699"
+	},
+	
+	"90923421": {
+		"NTMno": 90923421,
+		"NTMNoCheckDigits": 91,
+		"CSN": "36067029512892676"
+	},
+	
+	"90923423": {
+		"NTMno": 90923423,
+		"NTMNoCheckDigits": 29,
+		"CSN": "36067169231076356"
+	},
+	
+	"90923420": {
+		"NTMno": 90923420,
+		"NTMNoCheckDigits": 72,
+		"CSN": "36067169231076357"
+	},
+	
+	"90923424": {
+		"NTMno": 90923424,
+		"NTMNoCheckDigits": 45,
+		"CSN": "36067169231076358"
+	},
+	
+	"90923419": {
+		"NTMno": 90923419,
+		"NTMNoCheckDigits": 53,
+		"CSN": "36067169231076360"
+	},
+	
+	"90922361": {
+		"NTMno": 90922361,
+		"NTMNoCheckDigits": 40,
+		"CSN": "36067169231076361"
+	},
+		
+	"90923422": {
+		"NTMno": 90923422,
+		"NTMNoCheckDigits": 10,
+		"CSN": "36067169231076361"
+	},
+	
+	"Entry": {
+		"RecordType": 2,
+		"txnTypeV6": 61,
+		"RecordLength": 83,
+		"overallTxnlength": 63,
+		"currentTxnLength": 18
+	},
+	"VoidEntry": {
+		"RecordType": 2,
+		"txnTypeV6": 39,
+		"RecordLength": 78,
+		"overallTxnlength": 58,
+		"currentTxnLength": 13
+	},
+	"Exit": {
+		"RecordType": 2,
+		"txnTypeV6": 62,
+		"RecordLength": 97,
+		"overallTxnlength": 77,
+		"currentTxnLength": 32
+	},
+	"PAYG": {
+		"RecordType": 2,
+		"txnTypeV6": 80,
+		"RecordLength": 77,
+		"overallTxnlength": 57,
+		"currentTxnLength": 12
+	},
+	"TKT": {
+		"RecordType": 2,
+		"txnTypeV6": 81,
+		"RecordLength": 87,
+		"overallTxnlength": 67,
+		"currentTxnLength": 22
+	},
+	"TRAM": {
+		"RecordType": 2,
+		"txnTypeV6": 47,
+		"RecordLength": 96,
+		"overallTxnlength": 76,
+		"currentTxnLength": 31
+	},
+	"VoidTRAM": {
+		"RecordType": 2,
+		"txnTypeV6": 48,
+		"RecordLength": 78,
+		"overallTxnlength": 58,
+		"currentTxnLength": 13
+	},
+	"IVAL": {
+		"RecordType": 2,
+		"txnTypeV6": 65,
+		"RecordLength": 70,
+		"overallTxnlength": 50,
+		"currentTxnLength": 5
+	},
+	"BUS": {
+		"RecordType": 8,
+		"txnTypeV5":12,
+		"RecordLength": 139,
+		"overallTxnlength": 97,
+		"currentTxnLength": 33
+	},
+	"ElephantAndCastle": {
+		"TXNFileType": "tra",
+		"NLC": 570,
+		"DeviceType": 4,
+		"SubSystemID": 0,
+		"RTDID": 1463332,
+		"PlinthNumber": 90,
+		"PrestigeStationNumber": 100,
+		"entryAdjustmentDeducted": 540,
+		"fullEntryAdjustmentDeducted": 540
+	},
+	"OxfordCircus": {
+		"TXNFileType": "tra",
+		"NLC": 669,
+		"DeviceType": 3,
+		"SubSystemID": 0,
+		"RTDID": 1453956,
+		"PlinthNumber": 41,
+		"PrestigeStationNumber": 190,
+		"entryAdjustmentDeducted": 540,
+		"fullEntryAdjustmentDeducted": 540
+	},
+	"Richmond": {
+		"TXNFileType": "tra",
+		"NLC": 5570,
+		"DeviceType": 4,
+		"SubSystemID": 0,
+		"RTDID": 1482338,
+		"PlinthNumber": 91,
+		"PrestigeStationNumber": 694,
+		"entryAdjustmentDeducted": 440,
+		"fullEntryAdjustmentDeducted": 440
+	},
+	"WatfordJunction": {
+		"TXNFileType": "tra",
+		"NLC": 1402,
+		"DeviceType": 4,
+		"SubSystemID": 0,
+		"RTDID": 1479474,
+		"PlinthNumber": 90,
+		"PrestigeStationNumber": 395,
+		"entryAdjustmentDeducted": 440,
+		"fullEntryAdjustmentDeducted": 440
+	},
+	"WatfordJunctionOSI": {
+		"TXNFileType": "tra",
+		"NLC": 1402,
+		"DeviceType": 4,
+		"SubSystemID": 0,
+		"RTDID": 1479474,
+		"PlinthNumber": 90,
+		"PrestigeStationNumber": 395,
+		"entryAdjustmentDeducted": 440,
+		"fullEntryAdjustmentDeducted": 440
+	},
+	"GatwickAirport": {
+		"TXNFileType": "tra",
+		"NLC": 5416,
+		"DeviceType": 3,
+		"SubSystemID": 0,
+		"RTDID": 1479474,
+		"PlinthNumber": 60,
+		"PrestigeStationNumber": 644,
+		"entryAdjustmentDeducted": 810,
+		"fullEntryAdjustmentDeducted": 810
+	},
+	"VictoriaGatwickExpress": {
+		"TXNFileType": "tra",
+		"NLC": 5449,
+		"DeviceType": 3,
+		"SubSystemID": 0,
+		"RTDID": 1479136,
+		"PlinthNumber": 70,
+		"PrestigeStationNumber": 996,
+		"entryAdjustmentDeducted": 1980,
+		"fullEntryAdjustmentDeducted": 1980
+	},
+	"VictoriaNationalRail": {
+		"TXNFileType": "tra",
+		"NLC": 5426,
+		"DeviceType": 4,
+		"SubSystemID": 0,
+		"RTDID": 1476957,
+		"PlinthNumber": 96,
+		"PrestigeStationNumber": 1010,
+		"entryAdjustmentDeducted": 540,
+		"fullEntryAdjustmentDeducted": 540
+	},
+	
+	"WimbledonTram": {
+		"TXNFileType": "tra",
+		"NLC": 8777,
+		"DeviceType": 4,
+		"SubSystemID": 4,
+		"RTDID": 1476968,
+		"PlinthNumber": 92,
+		"PrestigeStationNumber": 10038,
+		"fullFare": 150,
+		"discountedFare": 150
+	},
+	"AddiscombeTram": {
+		"TXNFileType": "tra",
+		"NLC": 9440,
+		"DeviceType": 4,
+		"SubSystemID": 4,
+		"RTDID": 1476968,
+		"PlinthNumber": 93,
+		"PrestigeStationNumber": 10000,
+		"fullFare": 150,
+		"discountedFare": 150
+	},
+	"Wimbledon": {
+		"TXNFileType": "tra",
+		"NLC": 5578,
+		"DeviceType": 3,
+		"SubSystemID": 0,
+		"RTDID": 1476968,
+		"PlinthNumber": 54,
+		"PrestigeStationNumber": 465,
+		"entryAdjustmentDeducted": 540,
+		"fullEntryAdjustmentDeducted": 540
+	},
+	"WimbledonIVAL": {
+		"TXNFileType": "tra",
+		"NLC": 5578,
+		"DeviceType": 4,
+		"SubSystemID": 0,
+		"RTDID": 1453956,
+		"PlinthNumber": 91,
+		"PrestigeStationNumber": 465
+	},
+	"VictoriaLondonUnderground": {
+		"TXNFileType": "tra",
+		"NLC": 741,
+		"DeviceType": 3,
+		"SubSystemID": 0,
+		"RTDID": 1467640,
+		"PlinthNumber": 92,
+		"PrestigeStationNumber": 259,
+		"entryAdjustmentDeducted": 440,
+		"fullEntryAdjustmentDeducted": 440
+	},
+	"CanaryWharfPier": {
+		"TXNFileType": "tra",
+		"NLC": 171,
+		"DeviceType": 4,
+		"SubSystemID": 0,
+		"RTDID": 1489342,
+		"PlinthNumber": 90,
+		"PrestigeStationNumber": 986,
+		"entryAdjustmentDeducted": 720,
+		"fullEntryAdjustmentDeducted": 720
+	},
+	"25BusJourney": {
+		"TXNFileType": "bra",
+		"ReaderID": 1470351,
+		"ControllerID": 200043,
+		"BusReaderPosition": 0,
+		"RTDID": 1470351,
+		"ControllerTrayID": 29653,
+		"ReaderContainerID": 872862,
+		"GarageNumber": 96,
+		"FleetNumber": "        ",
+		"RegistrationNumber": "       ",
+		"IncidentNumber": 0,
+		"busRouteID": "25  ",
+		"busBoardingFareStageNo": 3,
+		"fullFare": 150,
+		"discountedFare": 150
+	},
+	"T032BusJourney": {
+		"TXNFileType": "bra",
+		"ReaderID": 1470351,
+		"ControllerID": 200376,
+		"BusReaderPosition": 0,
+		"RTDID": 1470351,
+		"ControllerTrayID": 21691,
+		"ReaderContainerID": 872862,
+		"GarageNumber": 96,
+		"FleetNumber": "        ",
+		"RegistrationNumber": "       ",
+		"IncidentNumber": 0,
+		"busRouteID": "T032 ",
+		"busBoardingFareStageNo": 3,
+		"fullFare": 140,
+		"discountedFare": 140
+	}
+}

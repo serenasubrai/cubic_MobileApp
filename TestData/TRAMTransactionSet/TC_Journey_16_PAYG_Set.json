@@ -1,0 +1,27 @@
+
+{
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "WimbledonTram"
+		}
+	],
+	"TRAM": [
+		{
+			"TransactionType": "TRAM",
+			"StationName": "WimbledonTram"
+		}
+	],
+	"VoidTRAM": [
+		{
+			"TransactionType": "VoidTRAM",
+			"StationName": "Wimbledon"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "Wimbledon"
+		}
+	]
+}

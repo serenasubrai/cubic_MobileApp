@@ -1,0 +1,25 @@
+{
+	"verifyOysterTKTUpdateOnCompletedJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_02 : TKT Update Via FUL on OSI re-entry during overall completed journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType":"TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile1": "TestData/TKTTransactionSet/TC_Journey_02_TKT_Set1.json",
+			"TransactionFile2": "TestData/TKTTransactionSet/TC_Journey_02_TKT_Set2.json",
+			"PrestigeCardNumber": "6021464",
+			"PaymentCardCVVNumber": "123",
+			"OSIEntry": "true",
+			"StartDate":" ",
+			"ZoneRanges": "1-2"
+		}
+	]
+}

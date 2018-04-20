@@ -1,0 +1,15 @@
+
+{
+	"TKT": [
+		{
+			"TransactionType": "TKT",
+			"StationName": "OxfordCircus"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "OxfordCircus"
+		}
+	]
+}

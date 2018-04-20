@@ -1,0 +1,22 @@
+{
+	"verifyOysterPAYGBalanceUpdateOnEntryGateForHereToHereJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_32 : PAYG balance update via FUL on ENTRY GATE for a here to here journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto3@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/PAYGTransactionSet/PAYGTransactionSameStationExit.json",
+			"PrestigeCardNumber": "6021549",
+			"PaymentCardCVVNumber": "123",
+			"JourneyType": "H2H"
+		}
+	]
+}

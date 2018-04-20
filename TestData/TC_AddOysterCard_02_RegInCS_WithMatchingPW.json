@@ -1,0 +1,18 @@
+{
+	"addOysterRegInCSMatchingPW": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_AddOysterCard_02 : RegInCS_WithMatchingPW",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicuser40@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",	
+			"PrestigeCardNumber": "6021508",
+			"addOysCardNum": "000602150831",
+			"securityAnswer": "salfords",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

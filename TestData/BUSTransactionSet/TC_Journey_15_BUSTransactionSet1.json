@@ -1,0 +1,15 @@
+
+{
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "T032BusJourney"
+		}
+	],
+	"BUS": [
+		{
+			"TransactionType": "BUS",
+			"StationName": "T032BusJourney"
+		}
+	]
+}

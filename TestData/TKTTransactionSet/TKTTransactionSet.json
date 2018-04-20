@@ -1,0 +1,21 @@
+
+{
+	"TKT": [
+		{
+			"TransactionType": "TKT",
+			"StationName": "ElephantAndCastle"
+		}
+	],
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "ElephantAndCastle"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "OxfordCircus"
+		}
+	]
+}

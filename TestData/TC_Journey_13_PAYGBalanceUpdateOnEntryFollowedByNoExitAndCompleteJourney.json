@@ -1,0 +1,21 @@
+{
+	"verifyOysterPAYGEntryNoExitAndCompleteJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_13 : PAYG balance update via FUL on entry gate followed by no exit and a complete journey Description",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/PAYGTransactionSet/PAYGTransactionSet.json",
+			"PrestigeCardNumber": "6021466",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

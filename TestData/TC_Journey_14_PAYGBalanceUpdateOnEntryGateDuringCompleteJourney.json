@@ -1,0 +1,21 @@
+{
+	"verifyOysterPAYGEntryDuringCompleteJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_14 : PAYG balance update on entry gate during complete journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"PAYG",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/PAYGTransactionSet/PAYGTransactionSet.json",
+			"PrestigeCardNumber": "6021466",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

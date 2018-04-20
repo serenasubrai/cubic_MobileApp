@@ -1,0 +1,6 @@
+/target
+/Results
+/log4j_logs/htmllogs
+/log4j_logs/logs
+/test-output
+*.dat

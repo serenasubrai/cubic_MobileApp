@@ -1,0 +1,16 @@
+{
+	"verifyOysterPAYGErrorCodeMaximumBalanceExceeds": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Error_03 : Error 70 - PPV AMOUNT WOULD EXCEED MAX ALLOWED PPV_Mobile App does not allow PAYG amount to go over �90",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto4@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "30",	
+			"PrestigeCardNumber": "6021540",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

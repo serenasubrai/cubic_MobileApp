@@ -1,0 +1,30 @@
+{
+	"verifyOysterTopupWithNewPaymentCard": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_FULPAYGTKT_16 : PAYG from App with new payment card - Visa Non 3D Secure on Android device - order collected and balance updated on Android device and OOL",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto6@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType":"PAYG",	
+			"topup": "10",		
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile":"TestData/PAYGTransactionSet/PAYGTransactionSet.json",
+			"PrestigeCardNumber": "6021456",
+			"PaymentCardCVVNumber":"123",
+			"CardNumber":"4000000000000119",
+			"CardHolderName":"Prashanth Sannayala",
+			"ExpiryDate":"1020",
+			"AddressLine1":"302459 Block P",
+			"AddressLine2": "40 Observatory Walk",
+			"Town":"Red Hil",
+			"Country":"UK",
+			"PostCode":"RH15LA"		
+		}
+	]
+	
+}

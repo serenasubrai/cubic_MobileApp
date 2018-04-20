@@ -1,0 +1,23 @@
+{
+	"verifyOysterPAYGMaximumNumberOfRequestsExceeds": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Error_02 : Error 520 - MAXIMUM NUMBER OF CARD REQUESTS EXCEEDED_ok",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto3@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"PrestigeCardNumber": "6021535",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"RequestXMLPath": "TestData/APITestXMLs/createAutoLoadTransactions.xml",
+			"PaymentCardCVVNumber": "123",
+			"RequestID": "12345",
+			"AutoLoadState": "1",
+			"PickupMode": "ALL",
+			"RequestExpiryDate": "2018-02-27",
+			"UserID": "Aut0L0ad",
+			"Password": "A43xeL1"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"verifyOysterProductUpdatedOnEntryDuringUncompletedJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_06 : TKT update via FUL on entry during uncompleted journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto2@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType": "TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TKTTransactionSet/TKTTransactionUncompletedJourney.json",
+			"PrestigeCardNumber": "6021462",
+			"StartDate": "",
+			"PaymentCardCVVNumber": "123",
+			"ZoneRanges": "1-2"
+		}
+	]
+}

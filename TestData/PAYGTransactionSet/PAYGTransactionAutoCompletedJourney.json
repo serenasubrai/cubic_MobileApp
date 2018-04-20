@@ -1,0 +1,22 @@
+
+{
+	
+	"PAYG": [
+		{
+			"TransactionType": "PAYG",
+			"StationName": "Wimbledon"
+		}
+	],
+	"Entry": [
+		{
+			"TransactionType": "Entry",
+			"StationName": "Wimbledon"
+		}
+	],
+	"Exit": [
+		{
+			"TransactionType": "Exit",
+			"StationName": "Wimbledon"
+		}
+	]
+}

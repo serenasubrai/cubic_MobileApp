@@ -1,0 +1,22 @@
+{
+	"verifyOysterProduct": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_FULPAYGTKT_14 : FUL � 81 - Load product - product added via app, order reflected on app and OOL Description",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto4@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType": "TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TKTTransactionSet/TKTTransactionSet.json",
+			"PrestigeCardNumber": "6021536",
+			"StartDate": "",
+			"PaymentCardCVVNumber": "123",
+			"ZoneRanges": "1-2"
+		}
+	]
+}

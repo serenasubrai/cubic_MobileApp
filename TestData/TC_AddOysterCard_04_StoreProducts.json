@@ -1,0 +1,18 @@
+{
+	"storeProducts": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_AddOysterCard_03 : HotlistedCard",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicuser46@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",	
+			"PrestigeCardNumber": "6021501",
+			"addOysCardNum": "000602150101",
+			"securityAnswer": "salfords",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

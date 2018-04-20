@@ -1,0 +1,21 @@
+{
+	"verifyOysterBalanceUpdateOnBus": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_08 : PAYG balance update via FUL on any Bus",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"BUS",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"BUSTransaction": "TestData/BUSTransaction/BUSTransaction.json",
+			"TransactionFile": "TestData/BUSTransactionSet/BUSTransactionSet.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"PrestigeCardNumber": "6021463",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

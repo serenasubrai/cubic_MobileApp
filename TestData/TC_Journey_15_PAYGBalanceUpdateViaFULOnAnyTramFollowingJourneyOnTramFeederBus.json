@@ -1,0 +1,23 @@
+{
+	"verifyOysterBalanceUpdateOnWimbledonTramFollowedByExitGateAtWimbledonSST": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_15 : PAYG balance update via FUL on any Tram following journey on Tram Feeder Bus (within transfer time of Tram feeder Bus route)",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"topup": "10",
+			"TransactionType":"TRAM",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TRAMTransaction": "TestData/TRAMTransaction/TRAMTransaction.json",
+			"BusTransaction": "TestData/BUSTransaction/BUSTransaction.json",
+			"PAYGTransaction": "TestData/PAYGTransaction/PAYGTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TRAMTransactionSet/TC_Journey_15_PAYG_Set.json",
+			"PrestigeCardNumber": "6021468",
+			"PaymentCardCVVNumber": "123"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"verifyOysterProductAtExitStationDuringUnstartedJourney": [
+		{
+			"RunMode": "Y",
+			"TestCase_Description": "TC_Journey_05 : TKT update via FUL on exit during unstarted journey",
+			"switchUserName": "switch",
+			"switchPassword": "Hiaant!",
+			"AppUserName": "cubicauto1@saf.com",
+			"AppPassword": "Cub1cuser",
+			"TransactionType": "TKT",
+			"TransactionHeader": "TestData/TransactionHeader/TransactionHeader.json",
+			"TKTTransaction": "TestData/TKTTransaction/TKTTransaction.json",
+			"EntryTransaction": "TestData/EntryTransaction/EntryTransaction.json",
+			"ExitTransaction": "TestData/ExitTransaction/ExitTransaction.json",
+			"TransactionFile": "TestData/TKTTransactionSet/TKTTransactionUnstartedJourney.json",
+			"PrestigeCardNumber": "6021468",
+			"StartDate": "",
+			"PaymentCardCVVNumber": "123",
+			"ZoneRanges": "1-2",
+			"UnstartedJourney": "true"
+		}
+	]
+}
